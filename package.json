@@ -1,10 +1,12 @@
 {
   "scripts": {
     "dev": "tailwindcss -i ./tailwind.css -o ./src/style.css --watch",
+    "build": "copyfiles -u 1 src/**/* docs/",
     "format": "prettier --write ."
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "copyfiles": "^2.4.1",
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.8",
