@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Snapfolio | Portfolio Template</title>
+    <title>Blogs | Snapfolio | Portfolio Template</title>
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -108,7 +108,7 @@
             >
               <a
                 href="/index.html"
-                class="flex items-center justify-center gap-2 rounded bg-blue-500 p-3 font-medium text-white transition-all duration-300 hover:bg-blue-500 hover:text-white"
+                class="flex items-center justify-center gap-2 rounded bg-slate-50 p-3 font-medium transition-all duration-300 hover:bg-blue-500 hover:text-white dark:bg-slate-700 dark:hover:bg-blue-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +188,7 @@
               </a>
               <a
                 href="/contact.html"
-                class="flex items-center justify-center gap-2 rounded bg-slate-50 p-3 font-medium transition-all duration-300 hover:bg-blue-500 hover:text-white dark:bg-slate-700 dark:hover:bg-blue-500"
+                class="flex items-center justify-center gap-2 rounded bg-blue-500 p-3 font-medium text-white transition-all duration-300 hover:bg-blue-500 hover:text-white dark:bg-blue-500 dark:hover:bg-blue-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -447,195 +447,61 @@
             </div>
           </div>
         </aside>
-        <section class="flex-1 py-4 text-lg">
+        <section class="w-full flex-1 py-4 text-lg">
           <div
             class="rounded bg-white px-6 pt-10 shadow-sm sm:px-10 dark:bg-slate-800"
           >
-            <h2 class="text-4xl font-bold">About</h2>
-            <p>
-              As a Web Developer from New York, NY. I specialize in React and
-              Django. I am a quick learner and I am always looking to expand my
-              skill set. I am a team player and I am always looking for new
-              opportunities to learn and grow.
-            </p>
-            <p>
-              My focus is on delivering your message and brand identity in the
-              most creative and impactful way.
-            </p>
-
-            <!-- Services -->
-            <h3 class="mt-10 text-2xl font-bold">What I Do?</h3>
-            <div class="grid gap-6 sm:grid-cols-2">
-              <div class="flex gap-4 rounded bg-rose-50 p-4 dark:bg-slate-700">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-10 text-rose-500"
+            <h1 class="text-4xl font-bold">Contact</h1>
+            <!-- Contact Form -->
+            <div class="rounded bg-slate-50 p-8 dark:bg-slate-700">
+              <h2 class="my-8 text-3xl font-semibold">
+                Let's discuss your project.
+              </h2>
+              <form action="" class="flex flex-col items-start gap-6">
+                <input
+                  class="w-full rounded border-2 border-white px-4 py-2.5 shadow-sm focus-visible:border-slate-300 focus-visible:outline-0 dark:border-slate-800 dark:bg-slate-800 dark:focus-visible:border-slate-500"
+                  type="text"
+                  placeholder="Your Name*"
+                />
+                <input
+                  class="w-full rounded border-2 border-white px-4 py-2.5 shadow-sm focus-visible:border-slate-300 focus-visible:outline-0 dark:border-slate-800 dark:bg-slate-800 dark:focus-visible:border-slate-500"
+                  type="email"
+                  placeholder="Your Email*"
+                />
+                <input
+                  class="w-full rounded border-2 border-white px-4 py-2.5 shadow-sm focus-visible:border-slate-300 focus-visible:outline-0 dark:border-slate-800 dark:bg-slate-800 dark:focus-visible:border-slate-500"
+                  type="text"
+                  placeholder="The Subject*"
+                />
+                <textarea
+                  class="w-full rounded border-2 border-white px-4 py-2.5 shadow-sm focus-visible:border-slate-300 focus-visible:outline-0 dark:border-slate-800 dark:bg-slate-800 dark:focus-visible:border-slate-500"
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="6"
+                  placeholder="Your Message*"
+                ></textarea>
+                <button
+                  class="mt-0 flex items-center justify-center gap-2 rounded bg-slate-600 px-8 py-2.5 text-lg text-white transition-all duration-300 hover:bg-blue-500"
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z"
-                  />
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
+                    />
+                  </svg>
 
-                <div class="flex-1">
-                  <h4 class="mb-4 font-sans text-xl font-medium">
-                    Web Development
-                  </h4>
-                  <p class="text-base">
-                    I specialize in React and Django. I am a quick learner and I
-                    am always looking to expand my skill set.
-                  </p>
-                </div>
-              </div>
-              <div
-                class="flex gap-4 rounded bg-emerald-50 p-4 dark:bg-slate-700"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-10 text-emerald-500"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                  />
-                </svg>
-
-                <div class="flex-1">
-                  <h4 class="mb-4 font-sans text-xl font-medium">
-                    App Development
-                  </h4>
-                  <p class="text-base">
-                    I specialize in React Native. I am a quick learner and I am
-                    always looking to expand my skill set.
-                  </p>
-                </div>
-              </div>
-              <div class="flex gap-4 rounded bg-amber-50 p-4 dark:bg-slate-700">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-10 text-amber-500"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M4.098 19.902a3.75 3.75 0 0 0 5.304 0l6.401-6.402M6.75 21A3.75 3.75 0 0 1 3 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 0 0 3.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008Z"
-                  />
-                </svg>
-
-                <div class="flex-1">
-                  <h4 class="mb-4 font-sans text-xl font-medium">
-                    UI/UX Design
-                  </h4>
-                  <p class="text-base">
-                    I specialize in Figma. I am a quick learner and I am always
-                    looking to expand my skill set.
-                  </p>
-                </div>
-              </div>
-              <div class="flex gap-4 rounded bg-sky-50 p-4 dark:bg-slate-700">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-10 text-sky-500"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z"
-                  />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z"
-                  />
-                </svg>
-
-                <div class="flex-1">
-                  <h4 class="mb-4 font-sans text-xl font-medium">SEO</h4>
-                  <p class="text-base">
-                    I specialize in SEO. I am a quick learner and I am always
-                    looking to expand my skill set.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Clients -->
-            <div
-              class="mt-10 rounded bg-blue-50/50 p-10 shadow-sm dark:bg-slate-700"
-            >
-              <h3 class="mb-10 text-center text-2xl font-bold">My clients</h3>
-              <div
-                class="xs:grid-cols-3 grid grid-cols-2 place-items-center justify-center gap-4 sm:grid-cols-4 md:grid-cols-5"
-              >
-                <img
-                  src="/images/client-logo-1.png"
-                  alt="client1"
-                  class="size-20 cursor-pointer shadow-sm grayscale hover:grayscale-0"
-                />
-                <img
-                  src="/images/client-logo-2.png"
-                  alt="client1"
-                  class="size-20 cursor-pointer shadow-sm grayscale hover:grayscale-0"
-                />
-                <img
-                  src="/images/client-logo-3.png"
-                  alt="client1"
-                  class="size-20 cursor-pointer shadow-sm grayscale hover:grayscale-0"
-                />
-                <img
-                  src="/images/client-logo-4.png"
-                  alt="client1"
-                  class="size-20 cursor-pointer shadow-sm grayscale hover:grayscale-0"
-                />
-                <img
-                  src="/images/client-logo-5.png"
-                  alt="client1"
-                  class="size-20 cursor-pointer shadow-sm grayscale hover:grayscale-0"
-                />
-                <img
-                  src="/images/client-logo-6.png"
-                  alt="client1"
-                  class="size-20 cursor-pointer shadow-sm grayscale hover:grayscale-0"
-                />
-                <img
-                  src="/images/client-logo-7.png"
-                  alt="client1"
-                  class="size-20 cursor-pointer shadow-sm grayscale hover:grayscale-0"
-                />
-                <img
-                  src="/images/client-logo-8.png"
-                  alt="client1"
-                  class="size-20 cursor-pointer shadow-sm grayscale hover:grayscale-0"
-                />
-                <img
-                  src="/images/client-logo-9.png"
-                  alt="client1"
-                  class="size-20 cursor-pointer shadow-sm grayscale hover:grayscale-0"
-                />
-                <img
-                  src="/images/client-logo-2.png"
-                  alt="client1"
-                  class="size-20 cursor-pointer shadow-sm grayscale hover:grayscale-0"
-                />
-              </div>
+                  Send
+                </button>
+              </form>
             </div>
 
             <!-- Footer -->
@@ -656,7 +522,7 @@
           >
             <a
               href="/index.html"
-              class="flex aspect-square flex-col items-center justify-center gap-1 rounded bg-blue-500 p-3 text-sm font-medium text-white transition-all duration-300 hover:bg-blue-500 hover:text-white"
+              class="flex aspect-square flex-col items-center justify-center gap-1 rounded bg-slate-50 p-3 text-sm font-medium transition-all duration-300 hover:bg-blue-500 hover:text-white dark:bg-slate-700 dark:hover:bg-blue-500"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -696,7 +562,7 @@
             </a>
             <a
               href="/portfolio.html"
-              class="flex aspect-square flex-col items-center justify-center gap-1 rounded bg-slate-50 p-3 text-sm font-medium transition-all duration-300 hover:bg-blue-500 hover:text-white dark:bg-slate-700 dark:hover:bg-blue-500"
+              class="flex aspect-square flex-col items-center justify-center gap-1 rounded p-3 text-sm font-medium transition-all duration-300 hover:bg-blue-500 hover:text-white dark:bg-slate-700 dark:hover:bg-blue-500"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -716,7 +582,7 @@
             </a>
             <a
               href="/blogs.html"
-              class="flex aspect-square flex-col items-center justify-center gap-1 rounded bg-slate-50 p-3 text-sm font-medium transition-all duration-300 hover:bg-blue-500 hover:text-white dark:bg-slate-700 dark:hover:bg-blue-500"
+              class="flex aspect-square flex-col items-center justify-center gap-1 rounded p-3 text-sm font-medium transition-all duration-300 hover:bg-blue-500 hover:text-white dark:bg-slate-700 dark:hover:bg-blue-500"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -736,7 +602,7 @@
             </a>
             <a
               href="/contact.html"
-              class="flex aspect-square flex-col items-center justify-center gap-1 rounded bg-slate-50 p-3 text-sm font-medium transition-all duration-300 hover:bg-blue-500 hover:text-white dark:bg-slate-700 dark:hover:bg-blue-500"
+              class="flex aspect-square flex-col items-center justify-center gap-1 rounded bg-blue-500 p-3 text-sm font-medium text-white transition-all duration-300 hover:bg-blue-500 hover:text-white dark:bg-blue-500 dark:hover:bg-blue-500"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -758,6 +624,12 @@
         </nav>
       </main>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"
+      integrity="sha512-nKZDK+ztK6Ug+2B6DZx+QtgeyAmo9YThZob8O3xgjqhw2IVQdAITFasl/jqbyDwclMkLXFOZRiytnUrXk/PM6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="js/script.js"></script>
   </body>
 </html>

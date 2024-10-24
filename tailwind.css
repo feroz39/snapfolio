@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply mb-6 font-serif;
+  }
+  p {
+    @apply mb-6;
+  }
+  .mixitup-control-active {
+    @apply !bg-blue-500 text-white;
+  }
+}
