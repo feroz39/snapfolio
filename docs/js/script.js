@@ -29,5 +29,9 @@ if (localStorage.getItem("mobileMenu") === "close") {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  var mixer = mixitup(".container") // Ensure the selector matches your HTML structure
+  if (typeof mixitup === "function") {
+    var mixer = mixitup(".container") // Ensure the selector matches your HTML structure
+  } else {
+    // console.error("MixItUp library is not loaded.")
+  }
 })
