@@ -703,6 +703,10 @@ p{
   margin-inline-end: 0.75rem;
 }
 
+.mr-2{
+  margin-right: 0.5rem;
+}
+
 .ms-2{
   margin-inline-start: 0.5rem;
 }
@@ -729,6 +733,10 @@ p{
 
 .mt-8{
   margin-top: 2rem;
+}
+
+.mr-1{
+  margin-right: 0.25rem;
 }
 
 .block{
@@ -810,8 +818,16 @@ p{
   height: 2.25rem;
 }
 
+.h-12{
+  height: 3rem;
+}
+
 .min-h-screen{
   min-height: 100vh;
+}
+
+.w-10{
+  width: 2.5rem;
 }
 
 .w-16{
@@ -1358,21 +1374,6 @@ p{
 
 .grayscale-\[50\%\]{
   --tw-grayscale: grayscale(50%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.grayscale-\[30\%\]{
-  --tw-grayscale: grayscale(30%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.grayscale-\[10\%\]{
-  --tw-grayscale: grayscale(10%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.grayscale-\[80\%\]{
-  --tw-grayscale: grayscale(80%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 

@@ -10,12 +10,11 @@ Snapfolio is a **personal website template** designed specifically for showcasin
 
 ## License Information
 
-This template is available for **commercial use** under the **MIT License**, making it suitable for personal and professional projects. However, it is **not open source**. Users who utilize this template are required to credit my GitHub profile: [Your GitHub Profile](https://github.com/feroz39) <!-- Update with your actual GitHub profile link -->
+This template is available for **commercial use** under the **MIT License**, making it suitable for personal and professional projects. However, it is **not open source**. Users who utilize this template are required to credit my GitHub profile: [feroz39](https://github.com/feroz39) <!-- Update with your actual GitHub profile link -->
 
 ## Live Preview
 
-You can view a live demo of the Snapfolio template here:
-[Preview URL](https://feroz39.github.io/snapfolio/) <!-- Update this link with your actual preview URL -->
+You can view a live demo of the Snapfolio template here: [Preview URL](https://feroz39.github.io/snapfolio/) <!-- Update this link with your actual preview URL -->
 
 ## Installation Guide
 
@@ -23,7 +22,7 @@ To get started with Snapfolio, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:feroz39/snapfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
