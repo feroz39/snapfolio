@@ -15,7 +15,7 @@ This template is available for commercial use under the MIT License.
 ## Preview
 
 You can set a preview URL for your project here:
-[Preview URL](#) <!-- Update this link with your actual preview URL -->
+[Preview URL](https://feroz39.github.io/snapfolio/) <!-- Update this link with your actual preview URL -->
 
 ## Installation
 
