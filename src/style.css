@@ -1481,6 +1481,11 @@ p{
   outline-width: 0px;
 }
 
+.group:hover .group-hover\:grayscale-0{
+  --tw-grayscale: grayscale(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .group.group-close .group-\[\.group-close\]\:-right-full{
   right: -100%;
 }
