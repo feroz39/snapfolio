@@ -703,10 +703,6 @@ p{
   margin-inline-end: 0.75rem;
 }
 
-.mr-2{
-  margin-right: 0.5rem;
-}
-
 .ms-2{
   margin-inline-start: 0.5rem;
 }
@@ -733,10 +729,6 @@ p{
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mr-1{
-  margin-right: 0.25rem;
 }
 
 .block{
@@ -822,16 +814,8 @@ p{
   height: 2.25rem;
 }
 
-.h-12{
-  height: 3rem;
-}
-
 .min-h-screen{
   min-height: 100vh;
-}
-
-.w-10{
-  width: 2.5rem;
 }
 
 .w-16{
@@ -1495,6 +1479,11 @@ p{
 
 .focus-visible\:outline-0:focus-visible{
   outline-width: 0px;
+}
+
+.group:hover .group-hover\:grayscale-0{
+  --tw-grayscale: grayscale(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .group.group-close .group-\[\.group-close\]\:-right-full{
